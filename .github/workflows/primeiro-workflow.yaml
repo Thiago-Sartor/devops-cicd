@@ -40,7 +40,7 @@ jobs:
 
     steps:
       - name: Deploy Homol
-        run: choe "Executando deploy no ambiente de Homologacao"
+        run: echo "Executando deploy no ambiente de Homologacao"
   
   producao:
     needs: homologacao
